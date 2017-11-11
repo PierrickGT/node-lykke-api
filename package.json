@@ -1,0 +1,29 @@
+{
+  "name": "node-lykke-api",
+  "version": "0.1.0",
+  "description": "Lykke API Node Wrapper",
+  "main": "lib/lykke.js",
+  "scripts": {
+    "format": "./node_modules/.bin/prettier --write",
+    "format-watch": "onchange '**/*.js' -- prettier --write {{changed}}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierrickGT/node-lykke-api.git"
+  },
+  "author": "Pierrick Turelier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierrickGT/node-lykke-api/issues"
+  },
+  "homepage": "https://github.com/PierrickGT/node-lykke-api#readme",
+  "dependencies": {
+    "node-fetch": "1.7.3"
+  },
+  "devDependencies": {
+    "jshint": "2.9.5",
+    "onchange": "3.2.1",
+    "prettier": "1.8.2"
+  }
+}
