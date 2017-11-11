@@ -4,6 +4,7 @@
   "description": "Lykke API Node Wrapper",
   "main": "lib/lykke.js",
   "scripts": {
+    "doc": "./node_modules/.bin/esdoc",
     "format": "./node_modules/.bin/prettier --write",
     "format-watch": "onchange '**/*.js' -- prettier --write {{changed}}",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,11 +20,15 @@
   },
   "homepage": "https://github.com/PierrickGT/node-lykke-api#readme",
   "dependencies": {
-    "node-fetch": "1.7.3"
+    "axios": "0.17.0"
   },
   "devDependencies": {
+    "esdoc": "1.0.3",
+    "esdoc-node-require": "1.0.4",
+    "esdoc-standard-plugin": "1.0.0",
     "jshint": "2.9.5",
     "onchange": "3.2.1",
-    "prettier": "1.8.2"
+    "prettier": "1.8.2",
+    "query-string": "5.0.1"
   }
 }
