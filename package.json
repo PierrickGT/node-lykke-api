@@ -7,7 +7,7 @@
     "doc": "./node_modules/.bin/esdoc",
     "format": "./node_modules/.bin/prettier --write",
     "format-watch": "onchange '**/*.js' -- prettier --write {{changed}}",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "esdoc": "1.0.3",
     "esdoc-node-require": "1.0.4",
     "esdoc-standard-plugin": "1.0.0",
+    "jest": "21.2.1",
     "jshint": "2.9.5",
     "onchange": "3.2.1",
     "prettier": "1.8.2",
