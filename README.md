@@ -10,7 +10,7 @@ npm install --save node-lykke-api
 ## Usage
 ```
 // Import the desired module
-const { LykkePublicAPI, LykkeWalettAPI } = require('./lib/lykke.js');
+const { LykkePublicAPI, LykkeWalettAPI } = require('node-lykke-api');
 
 // Create an instance
 const publicAPI = new LykkePublicAPI();
