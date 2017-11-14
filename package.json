@@ -1,0 +1,36 @@
+{
+  "name": "node-lykke-api",
+  "version": "0.1.0",
+  "description": "Lykke API Node Wrapper",
+  "main": "lib/lykke.js",
+  "scripts": {
+    "doc": "./node_modules/.bin/esdoc",
+    "format": "./node_modules/.bin/prettier --write",
+    "format-watch": "onchange '**/*.js' -- prettier --write {{changed}}",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierrickGT/node-lykke-api.git"
+  },
+  "author": "Pierrick Turelier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierrickGT/node-lykke-api/issues"
+  },
+  "homepage": "https://github.com/PierrickGT/node-lykke-api#readme",
+  "dependencies": {
+    "axios": "0.17.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "1.9.0",
+    "esdoc": "1.0.3",
+    "esdoc-node-require": "1.0.4",
+    "esdoc-standard-plugin": "1.0.0",
+    "jest": "21.2.1",
+    "jshint": "2.9.5",
+    "onchange": "3.2.1",
+    "prettier": "1.8.2",
+    "query-string": "5.0.1"
+  }
+}
