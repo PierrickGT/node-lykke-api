@@ -1,6 +1,6 @@
 # Lykke API Node Wrapper
 
-[![Build Status](https://travis-ci.org/PierrickGT/node-lykke-api.svg?branch=master)](https://travis-ci.org/PierrickGT/node-lykke-api)
+[![Build Status](https://travis-ci.org/PierrickGT/node-lykke-api.svg?branch=master)](https://travis-ci.org/PierrickGT/node-lykke-api) [![npm version](https://badge.fury.io/js/node-lykke-api.svg)](https://badge.fury.io/js/node-lykke-api)
 
 ## Installation
 ```
