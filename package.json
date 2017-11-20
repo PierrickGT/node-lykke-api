@@ -4,7 +4,7 @@
   "description": "Lykke API Node Wrapper",
   "main": "lib/lykke.js",
   "scripts": {
-    "doc": "./node_modules/.bin/esdoc",
+    "doc": "node ./generate-doc.js",
     "format": "./node_modules/.bin/prettier --write",
     "format-watch": "onchange '**/*.js' -- prettier --write {{changed}}",
     "test": "jest"
@@ -24,10 +24,10 @@
   },
   "devDependencies": {
     "axios-mock-adapter": "1.9.0",
-    "esdoc": "1.0.3",
-    "esdoc-node-require": "1.0.4",
-    "esdoc-standard-plugin": "1.0.0",
+    "doxdox": "2.0.3",
+    "fs": "0.0.1-security",
     "jest": "21.2.1",
+    "jsdoc": "3.5.5",
     "jshint": "2.9.5",
     "onchange": "3.2.1",
     "prettier": "1.8.2",
