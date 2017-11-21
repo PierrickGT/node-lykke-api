@@ -7,7 +7,7 @@
     "doc": "node ./generate-doc.js",
     "format": "./node_modules/.bin/prettier --write",
     "format-watch": "onchange '**/*.js' -- prettier --write {{changed}}",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "axios-mock-adapter": "1.9.0",
+    "coveralls": "3.0.0",
     "doxdox": "2.0.3",
     "fs": "0.0.1-security",
     "jest": "21.2.1",
