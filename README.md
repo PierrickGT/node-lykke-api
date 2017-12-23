@@ -114,3 +114,6 @@ isAlive()
 ```
 version()
 ```
+
+## Contributors
+* **Justin Levinson** _([@justinlevinson](https://github.com/justinlevinson))_
