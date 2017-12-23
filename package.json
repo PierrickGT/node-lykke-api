@@ -1,6 +1,6 @@
 {
   "name": "node-lykke-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lykke API Node Wrapper",
   "main": "lib/lykke.js",
   "scripts": {
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/PierrickGT/node-lykke-api#readme",
   "dependencies": {
-    "axios": "0.17.0"
+    "axios": "0.17.0",
+    "query-string": "5.0.1"
   },
   "devDependencies": {
     "axios-mock-adapter": "1.10.0",
@@ -32,6 +33,5 @@
     "jshint": "2.9.5",
     "onchange": "3.3.0",
     "prettier": "1.9.1",
-    "query-string": "5.0.1"
   }
 }
