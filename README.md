@@ -41,7 +41,7 @@ walettAPI
 ## Methods
 
 ### Lykke Public API
-https://lykke-public-api.azurewebsites.net/swagger/ui/index.html
+https://public-api.lykke.com
 
 #### AssetPairs
 ```
