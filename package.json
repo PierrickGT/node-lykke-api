@@ -24,7 +24,7 @@
     "query-string": "5.0.1"
   },
   "devDependencies": {
-    "axios-mock-adapter": "1.10.0",
+    "axios-mock-adapter": "1.11.0",
     "coveralls": "3.0.0",
     "doxdox": "2.0.3",
     "fs": "0.0.1-security",
