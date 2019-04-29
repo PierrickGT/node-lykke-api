@@ -21,7 +21,7 @@
   "homepage": "https://github.com/PierrickGT/node-lykke-api#readme",
   "dependencies": {
     "axios": "0.18.0",
-    "query-string": "6.4.2"
+    "query-string": "6.5.0"
   },
   "devDependencies": {
     "axios-mock-adapter": "1.16.0",
