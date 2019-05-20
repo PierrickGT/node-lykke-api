@@ -34,7 +34,7 @@
     "jest": "24.8.0",
     "jsdoc": "3.6.1",
     "jshint": "2.10.2",
-    "onchange": "5.2.0",
+    "onchange": "6.0.0",
     "prettier": "1.17.0"
   },
   "snyk": true
