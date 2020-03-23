@@ -27,7 +27,7 @@
     "snyk": "^1.189.0"
   },
   "devDependencies": {
-    "axios-mock-adapter": "1.17.0",
+    "axios-mock-adapter": "1.18.1",
     "coveralls": "3.0.6",
     "doxdox": "3.0.0",
     "fs": "0.0.2",
